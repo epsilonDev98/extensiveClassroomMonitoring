@@ -1,4 +1,4 @@
-# extensiveClassroomMonitoring
+# Extensive Classroom Monitoring
  A Monitoring System which helps to have a proper assistant on Government Primary Schools. Machine Learning Algorithms and Web Technologies like HTML5, CSS3,PHP and JavaScript are used to develop this system.
  Mid day meal scheme for government primary schools under SARVA SIKSHA ABHIYAN.
 
@@ -11,7 +11,7 @@ https://github.com/epsilonDev98/
 
 ### ***project preview***
 
-### 1
+### 1 Admin login
 ![](admin_login.png)
 
 ### 2
