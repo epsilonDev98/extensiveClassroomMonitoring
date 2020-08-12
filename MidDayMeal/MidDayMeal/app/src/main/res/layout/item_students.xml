@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_margin="@dimen/_3sdp"
+    android:id="@+id/cv"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:gravity="center"
+        android:padding="@dimen/_6sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/_40sdp"
+            android:id="@+id/photo"
+            android:src="@mipmap/ic_launcher"
+            android:layout_height="@dimen/_40sdp" />
+
+        <LinearLayout
+            android:layout_marginLeft="@dimen/_6sdp"
+            android:layout_toLeftOf="@+id/rL"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/photo"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="#000000"
+                android:text="Siddharth Gautma"
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+                android:text="Anil kumar"
+                android:id="@+id/fatherName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_centerVertical="true"
+            android:id="@+id/rL"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btA"
+                android:text="P"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:visibility="gone"
+                android:text="A"
+                android:id="@+id/btB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
