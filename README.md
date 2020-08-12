@@ -17,7 +17,7 @@ https://github.com/epsilonDev98/
 ### 2 Attendance page
 ![screenshot](attendance.png)
 
-### 3
+### 3 Feedback Analysis
 ![screenshot](sa2.png)
 
 ### 4
