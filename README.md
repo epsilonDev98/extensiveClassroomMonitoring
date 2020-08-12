@@ -14,7 +14,7 @@ https://github.com/epsilonDev98/
 ### 1 Admin login
 ![](admin_login.png)
 
-### 2
+### 2 Attendance page
 ![screenshot](attendance.png)
 
 ### 3
